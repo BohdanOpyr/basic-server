@@ -1,0 +1,47 @@
+div.navbar{
+	position:fixed;
+	height:50px;
+	background:rgba($*bgcolor*$, 0.5);
+	top:0px;
+	left:0px;
+	right:0px;
+}
+img#logo{
+	position:relative;
+	left:50px;
+	width:50px;
+	height:50px;
+}
+div.navbar #name{
+	position:relative;
+	left:50px;
+	top:-15px;
+	color:rgba($*color*$, 1);
+	display:inline-block;
+}
+div.navbar button{
+	position:relative;
+	left:50px;
+	top:-15px;
+	color:rgba($*color*$, 1);
+	background:rgba($*bgcolor*$, 0.25);
+	display:inline-block;
+	border:solid rgba($*bgcolor*$, 0.5) 1px;
+	border-radius:2px;
+}
+div.navbar button:hover{
+	background:rgba($*bgcolor*$, 0.75);
+}
+div.container{
+	color:rgba($*color*$, 1);
+	background:rgba($*bgcolor*$, 1);
+	position:absolute;
+	right:5%;
+	left:5%;
+	top:50px;
+	border:solid rgba($*color*$, 1) 2px;
+	border-radius:10px;
+}
+body{
+	background:rgba($*bgcolor*$, 0.5);
+}
